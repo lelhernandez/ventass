@@ -19,7 +19,7 @@ namespace Ventass
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola Mundo");
+            MessageBox.Show("Piensa, Cree, Sueña oy Atrevete");
         }
     }
 }
