@@ -37,7 +37,7 @@ namespace Ventass
 
             foreach (var cliente in listadeProductos)
             {
-                MessageBox.Show(cliente.Nombre + " " + cliente.Ciudad);
+                MessageBox.Show(cliente.Nombre + "     " + cliente.Ciudad);
             }
         }
      }

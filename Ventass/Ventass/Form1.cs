@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ventass.BL;
 
 namespace Ventass
 {
@@ -15,11 +16,13 @@ namespace Ventass
         public Form1()
         {
             InitializeComponent();
+
+            var productosBL = new ProductosBL();
+            listadeProductosBindingSource.DataSource = productosBL.ListadeProductos;
+
+            var categoriasBL = new CategoriaBL();
+            listadeProductosBindingSource.DataSource = categoriasBL.ListadeCategorias;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Piensa, Cree, Sueña oy Atrevete");
-        }
     }
 }
