@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HERENCIA
+namespace HERENCIA1
 {
-    public class SuperPoderes: villano
+    class VILLANO
     {
-        public string TipoPoder { get; set; }
     }
 }
-    
